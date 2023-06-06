@@ -1,0 +1,80 @@
+.webToolsPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Utendo', 'Helvetica', 'sans-serif';
+    height: 722px;
+}
+
+.webToolsTitle{
+    margin-bottom: 10px;
+}
+
+.webToolsCarouselContainer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 762px;
+}
+
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+    cursor:default;
+}
+
+.rec.rec-arrow{
+    background-color: #242424;;
+    color: #fff;
+}
+
+.rec-dot_active {
+    background-color: rgb(22, 126, 196) !important;
+    box-shadow: 0 0 1px 3px rgb(22, 126, 196) !important;
+}
+.rec-dot:focus,
+.rec-dot:hover {
+    box-shadow: 0 0 1px 3px rgb(22, 126, 196) !important;
+}
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+    background-color: rgb(22, 126, 196) !important;
+    box-shadow: 0 0 1px 3px rgb(22, 126, 196) !important;
+}
+
+.rec-arrow {
+    
+    background-color: #242424 !important;
+    transition: all 0.3s ease;
+    font-size: 1.1rem !important;
+    color: white !important;
+   
+}
+
+.rec-arrow:hover:not(:disabled) {
+    transform: scale(1.2);
+}
+
+.webToolsDivider{
+    width: 800px;
+}
+
+.largeCarouselItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.webToolsCardsContainer{
+    display: flex;
+}
+
+.largeCarouselItemTitle{
+    color: #fff;
+    font-size: 3vh;
+    font-weight: bold;
+}
+

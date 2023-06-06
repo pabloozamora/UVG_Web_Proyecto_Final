@@ -1,0 +1,28 @@
+.carouselItemContainer{
+    color: #242424;
+    padding: 10px;
+}
+
+.carouselItem{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.carouselItem:hover{
+    box-shadow: 3px 3px 5px #949494;
+}
+
+.carouselItemImg{
+    width: 150px;
+}
+
+.carouselItemTitle{
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 10px;
+}
