@@ -9,7 +9,7 @@ const ProjectsPage = () => (
   <div className={styles.projectsPage}>
     <h1 className={styles.projectsTitle}>¿Evidencia?</h1>
     <span className={styles.projectsDescription}>
-      Siéntete libre de visitar alguno de los proyectos que he desarrollado este año
+      Siéntete libre de visitar algunos de los proyectos que he desarrollado este año
     </span>
     <hr className={styles.projectsDivider} />
     <div className={styles.projectsContainer}>
